@@ -1,6 +1,6 @@
 // écrire la méthode formatPrice(prices: PriceItem[])
 
-import { PriceItem } from "./price.type";
+import { PriceItem } from "./1.5.2_price.type";
 
 const formatPrice = (prices: PriceItem[]) => {
   return prices.map(price => {
